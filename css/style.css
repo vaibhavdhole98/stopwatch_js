@@ -33,12 +33,12 @@ body {
 }
 
 .digit {
-    font-size: 85px;
+    font-size: 100px;
     font-weight: bold;
 }
 
 .txt {
-  font-size: 25px;
+  font-size: 50px;
   font-weight: bold;
 }
 .button {
