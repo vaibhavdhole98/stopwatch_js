@@ -1,0 +1,61 @@
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: silver;
+  padding: 200px;
+}
+
+#digitId {
+  color: silver;
+}
+
+.countDisplay {
+  /* border: 10px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+
+.buttonDisplay {
+  /* border: 10px solid green; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+
+.heading {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.digit {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.txt {
+  font-size: 50px;
+  font-weight: bold;
+}
+.button {
+  font-size: 50px;
+  font-weight: bold;
+}
+.btn {
+  padding: 10px 25px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+#Start {
+  background-color: green;
+}
+#Stop {
+  background-color: red;
+}
+#Reset {
+  background-color: indigo;
+}
